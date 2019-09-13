@@ -200,9 +200,10 @@ img {
   }
 }
 .main-navigation .nav-container .nav {
-  width: 350px;
+  width: 450px;
   display: flex;
   justify-content: space-evenly;
+  height: 45%;
 }
 @media (max-width: 500px) {
   .main-navigation .nav-container .nav {
@@ -214,6 +215,12 @@ img {
   font-size: 1.6rem;
   color: #212529;
   text-decoration: none;
+  border: 1px solid black;
+  width: 75px;
+  text-align: center;
+  margin: 5px;
+  padding: 5px;
+  border-radius: 10px;
 }
 .footer {
   width: 100%;

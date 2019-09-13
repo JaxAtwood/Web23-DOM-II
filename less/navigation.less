@@ -24,21 +24,32 @@
     }
 
     .nav {
-      width: 350px;
+      width: 450px;
       display: flex;
       justify-content: space-evenly;
-
+      // border: solid 2px hotpink;
+      height: 45%;
       @media @mobile {
         width: 100%;
         justify-content: space-around;
       }
-      
-      
+  
       a {
         font-size: 1.6rem;
         color: @font-color;
         text-decoration: none;
+        border: 1px solid black;
+        width: 75px;
+        text-align: center;
+        margin: 5px;
+        padding: 5px;
+        border-radius: 10px;
       }
     }
+    
   }
-} // .main-navigation
+}
+
+
+
+
